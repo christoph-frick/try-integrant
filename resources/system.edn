@@ -1,0 +1,5 @@
+{;
+ :try-integrant/http {:port 8080 :response #ref :test/reponse}
+ :test/reponse {:status 200
+                :headers {"content-type" "text/plain"}
+                :body "hello!"}}
